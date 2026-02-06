@@ -15,10 +15,8 @@ class Solution:
         
 
 #brute force method
-
 class Solution:
     def containsDuplicate(self, nums: list[int]) -> bool:
-        flag = 0
         for i in range(0, len(nums)):
             for j in range(0, len(nums)):
                 if i==j:
@@ -26,11 +24,7 @@ class Solution:
                 else:
                     if nums[i]==nums[j]:
                         return True
-
-                    
-        if flag==0:
-            return False
-        
+        return False
 
 #hashset method(neetcode)
 class Solution:
