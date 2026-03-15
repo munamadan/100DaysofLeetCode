@@ -8,3 +8,14 @@ class Solution:
                 nums[i] = nums[i-1]
             nums[0] = last
             k-=1
+
+class Solution:
+    def rotate(self, nums:list[int], k:int) -> None:
+        k = k%n
+        n = len(nums)
+        temp = [0]*n
+        for i in range(len(nums)):
+            temp[(i+k)%n] = nums[i]
+        for i in range(n):
+            nums[i] = temp[i]
+        
