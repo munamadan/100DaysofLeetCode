@@ -20,3 +20,6 @@ class Solution:
             if s1_counts == s2_counts: return True
 
         return False
+    
+#i understand the problem and i understand the solution but I do not understand the implementation of the code
+#this should be a hard problem, not medium
