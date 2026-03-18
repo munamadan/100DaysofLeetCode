@@ -8,6 +8,7 @@ class Solution:
             return False
 
 
+# neetcode method
 class Solution:
     def isPalindrome(self, x: int) -> bool:
         if x < 0:
