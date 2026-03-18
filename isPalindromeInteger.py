@@ -17,10 +17,7 @@ class Solution:
         while x > 10 * div:
             div *= 10
         while x:
-            right = x % 10
-            left = x // div
-
-            if left != right:
+            if x % 10 != x // div:
                 return False
 
             x = (x % div) // 10
