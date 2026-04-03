@@ -1,3 +1,4 @@
+#much harder than it looks
 class Solution:
     def searchMatrix(self, matrix:list[list[int]], target:int) -> bool:
         m = len(matrix)
